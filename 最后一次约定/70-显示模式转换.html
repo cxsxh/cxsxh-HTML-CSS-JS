@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* 块级元素 */
+            /* 块级元素会独占一行，多个块级元素会各自独占一行 */
+            /* 块级元素可以设置宽高 */
+            /* 块级元素可以设置margin和padding */
+            /* 块级元素可以设置边距，但是边距不会重叠 */
+            /* 块级元素可以设置边框 */
+            /* 块级元素可以设置背景 */
+            /* 块级元素可以设置外边距，但是外边距不会重叠 */
+            /* 块级元素可以设置内边距，但是内边距不会重叠 */
+            /* 块级元素可以设置边框 */
+            width: 100px;
+            height: 100px;
+
+            /* display: inline; */
+            display: inline-block;
+        }
+
+        .div1 {
+            background-color: pink;
+        }
+
+        .div2 {
+            background-color: red;
+        }
+
+        span {
+            /* 行内元素 */
+            /* 行内元素不会独占一行，多个行内元素会排列在一行 */
+            /* 行内元素不可以设置宽高 */
+            /* 行内元素不可以设置margin和padding */
+            /* 行内元素不可以设置边距，但是行内元素会重叠 */
+            /* 行内元素不可以设置边框 */
+            /* 行内元素不可以设置背景 */
+            /* 行内元素不可以设置外边距，但是行内元素会重叠 */
+            /* 行内元素不可以设置内边距，但是行内元素会重叠 */
+            /* 行内元素不可以设置边框 */
+            width: 100px;
+            height: 100px;;
+
+            /* display: block; */
+            display: inline-block;
+
+        }
+
+        .span1 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .span2 {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 块级元素会独占一行，多个块级元素会各自独占一行 -->
+    <div class="div1">div 标签1</div>
+    <div class="div2">div 标签2</div>
+
+    <!-- 行内  -->
+    <span class="span1">span 标签1</span>
+    <span class="span2">span 标签2</span>
+
+    <!-- 行内块 -->
+    <img src="../1.2023新版从0到1学前端-HTML+CSS+移动web/资料/基础班课程资料/code/day04/案例/images/1.png" alt="">
+    <img src="../1.2023新版从0到1学前端-HTML+CSS+移动web/资料/基础班课程资料/code/day04/案例/images/1.png" alt="">
+</body>
+</html>
